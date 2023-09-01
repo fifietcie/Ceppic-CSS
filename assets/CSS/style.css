@@ -1,3 +1,13 @@
+/* *{
+    color: antiquewhite;pour changer la couleur du texte de toute la page
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    color: rgb(50, 121, 140);
+  color: rgb(73, 17, 122);
+  background-color: rgb(93, 96, 101);
 }
