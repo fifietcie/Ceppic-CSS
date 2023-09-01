@@ -14,19 +14,23 @@ body {
 /* permet de changer couleur de la toute la page  */
 
 header {
-    color: black
-    ; background-color: antiquewhite;
+  color: black;
+  background-color: antiquewhite;
 }
 /* permets de changer la couleur de tous les header  */
 
 p {
-    color: rgb(99, 121, 13);
+  color: rgb(99, 121, 13);
 }
 /* permet de changer couleur de tous les paragraphes  */
 
 .titre {
-    color: rgb(31, 2, 26);
+  color: rgb(31, 2, 26);
 }
-/* en indiquant dans l'HTML la class "titre " o peut changer  */
+/* en indiquant dans l'HTML la class "titre " on peut changer seulement les titres avec la mention class="titre" */
 
+#paragraphe {
+  border: 1px blue;
+}
 
+/* en indiquant l'id dans l'html on peut changer seulement le paragraphe avec la mention id="paragraphe" */
