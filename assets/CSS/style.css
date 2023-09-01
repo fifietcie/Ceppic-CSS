@@ -9,5 +9,24 @@
 
 body {
   color: rgb(73, 17, 122);
-  background-color: rgb(93, 96, 101);
+  background-color: rgb(73, 100, 145);
 }
+/* permet de changer couleur de la toute la page  */
+
+header {
+    color: black
+    ; background-color: antiquewhite;
+}
+/* permets de changer la couleur de tous les header  */
+
+p {
+    color: rgb(99, 121, 13);
+}
+/* permet de changer couleur de tous les paragraphes  */
+
+.titre {
+    color: rgb(31, 2, 26);
+}
+/* en indiquant dans l'HTML la class "titre " o peut changer  */
+
+
