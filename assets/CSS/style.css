@@ -34,9 +34,38 @@ p {
 }
 /* permet de changer couleur de tous les paragraphes  */
 
-.titre {
-  color: rgb(142, 116, 29);
+/* nav {
+ display: inline-flexbox;} */
+
+h2, h2{
+  color: rgb(148, 24, 65);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: italic; 
 }
+
+/* change la couleur des h indiqués mais attention bien commenter le .titre pour que ce soit pris en compte  */
+
+
+/* h1{
+  background-image: url(../images/grooming-1801287.svg);
+  padding-left: 0%;
+} */
+
+header img, header h1{
+  display: inline-block;
+}
+
+header img {
+  width: 5%;
+}
+/* inline-block permet de reguler taille
+une fois avoir ajouté l'image dans html on modifie le placement et taille sur le css */
+
+/* .titre {
+  color: rgb(142, 116, 29);
+} */
+
 /* en indiquant dans l'HTML la class "titre " on peut changer seulement les titres avec la mention class="titre" */
 
 #paragraphe {
@@ -73,3 +102,10 @@ p:hover{
   ;background-color: beige;
 }
 /* change la couleur quand on passe sur un paragraphe  */
+
+img{
+  width: 20%;
+  display: block;
+}
+
+/* permet de modifier la taille de l'image et la disposition. Ici "block" l'une en dessous de l'autre */
