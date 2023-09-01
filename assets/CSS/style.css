@@ -2,6 +2,12 @@
     color: antiquewhite;pour changer la couleur du texte de toute la page
 } */
 
+@font-face {
+  font-family: NotoSerifJP;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+/* ajouter font téléchargée */
+
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +17,7 @@
 body {
   color: rgb(73, 17, 122);
   background-color: rgb(92, 124, 134);
-  font-family: fantasy;
+  font-family: 'Montserrat', sans-serif;
 }
 /* body permet de faire des modifs sur toute la page  */
 /* front-family = choix de la police */
