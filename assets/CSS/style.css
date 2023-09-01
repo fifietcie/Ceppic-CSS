@@ -51,4 +51,14 @@ a:visited {
     color: crimson
     ; text-decoration: underline;
 }
-/* change couleur liens déjà visités et les souligne */
+/* change couleur liens déjà visités et les souligne grace a text-decoration*/
+
+a:hover{
+  color: darkgreen;
+  text-decoration: none;
+}
+
+p:hover{
+  color: brown
+  ;background-color: beige;
+}
