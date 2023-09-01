@@ -11,12 +11,15 @@
 body {
   color: rgb(73, 17, 122);
   background-color: rgb(92, 124, 134);
+  font-family: fantasy;
 }
-/* permet de changer couleur de la toute la page  */
+/* body permet de faire des modifs sur toute la page  */
+/* front-family = choix de la police */
+/*  https://fonts.google.com/  */
 
 header {
   color: black;
-  background-color: antiquewhite;
+  background-color: rgb(118, 112, 139);
 }
 /* permets de changer la couleur de tous les header  */
 
@@ -57,8 +60,10 @@ a:hover{
   color: darkgreen;
   text-decoration: none;
 }
+/* change la couleur quand on passe sur un titre  */
 
 p:hover{
   color: brown
   ;background-color: beige;
 }
+/* change la couleur quand on passe sur un paragraphe  */
