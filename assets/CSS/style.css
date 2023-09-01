@@ -36,3 +36,8 @@ p {
 /* en indiquant l'id dans l'html on peut changer seulement le paragraphe avec la mention id="paragraphe"
 solid permet d'ajouter un cadre autour du paragraphe avec l'id  */
 
+.paragraphe {
+  border: solid 2px black;
+}
+/* ajout d'un cadre sur tous les paragraphes avec mention class=paragraphe */
+
