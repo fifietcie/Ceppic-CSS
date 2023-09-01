@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
 }
+/* reset la mise en place pour modifier chaque section  */
 
 body {
   color: rgb(73, 17, 122);
@@ -41,3 +42,13 @@ solid permet d'ajouter un cadre autour du paragraphe avec l'id  */
 }
 /* ajout d'un cadre sur tous les paragraphes avec mention class=paragraphe */
 
+a {
+    color: darkorange;
+}
+/* change la couleur des liens  */
+
+a:visited {
+    color: crimson
+    ; text-decoration: underline;
+}
+/* change couleur liens déjà visités et les souligne */
